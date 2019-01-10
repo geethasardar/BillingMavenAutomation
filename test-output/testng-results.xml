@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-10T21:35:09Z" name="Suite" finished-at="2019-01-10T21:35:58Z" duration-ms="49098">
+    <groups>
+    </groups>
+    <test started-at="2019-01-10T21:35:09Z" name="Test" finished-at="2019-01-10T21:35:58Z" duration-ms="49098">
+      <class name="com.elisity.aws.Maven.MonthlyAmazonBillingTest">
+        <test-method signature="main()[pri:0, instance:com.elisity.aws.Maven.MonthlyAmazonBillingTest@35aea049]" started-at="2019-01-10T21:35:09Z" name="main" finished-at="2019-01-10T21:35:58Z" duration-ms="49023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.elisity.aws.Maven.MonthlyAmazonBillingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

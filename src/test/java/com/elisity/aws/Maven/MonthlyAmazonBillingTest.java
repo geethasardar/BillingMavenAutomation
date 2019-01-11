@@ -95,10 +95,10 @@ public class MonthlyAmazonBillingTest {
 		
 		// Selecting Billing Details
 		WebElement montlycost = driver.findElement(By.cssSelector("month-summary.ng-isolate-scope > div:nth-child(1) > div:nth-child(1) > card:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)"));
-		System.out.println("Month to date costs is: "+ montlycost.getText());
+		System.out.println("INFO: Month to date costs is: "+ montlycost.getText());
 
 		WebElement forecastamt = driver.findElement(By.cssSelector("month-summary.ng-isolate-scope > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > card:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)"));
-		System.out.println("Forecasted month end costs is: "+ forecastamt.getText());
+		System.out.println("INFO: Forecasted month end costs is: "+ forecastamt.getText());
 		
 		//signing out
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[4]/div/div[1]/div[4]/a[2]/div[1]")).click();

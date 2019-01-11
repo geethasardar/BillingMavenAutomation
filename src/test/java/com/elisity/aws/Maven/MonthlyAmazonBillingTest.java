@@ -18,13 +18,13 @@ public class MonthlyAmazonBillingTest {
 		//set the URL
 		driver.get("https://www.aws.com");
 		Thread.sleep(3000);
-		System.out.print("Successfull opening the web page \n");
+		System.out.print("Successful opening the web page \n");
 		
 		//System.out.print("Selecting My Account \n");
 		WebDriverWait wait = new WebDriverWait(driver, 50);
 		WebElement accountelement = wait.until(ExpectedConditions.visibilityOfElementLocated (By.xpath("//*[@id=\"m-nav\"]/div[1]/div[2]/a[4]/i")));
 		accountelement.click();
-		System.out.print("Successfull Selected My Account \n");
+		//System.out.print("Successful Selected My Account \n");
 		
 		//System.out.print("Selecting AWS Management Console \n");
 		WebElement awsmgmt = driver.findElement(By.xpath("/html/body/div[27]/ul/li[1]/a"));

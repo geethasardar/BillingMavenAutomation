@@ -54,7 +54,7 @@ public class MonthlyAmazonBillingTest {
 		// verify signin successful 
 		String signinhdr = driver.getTitle();
 		if(signinhdr.equals("AWS Management Console")) {
-			//System.out.println("AWS Management Console Page successfull");
+			//System.out.println("AWS Management Console Page successful");
 		}else {
 			driver.close();
 		}

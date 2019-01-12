@@ -103,7 +103,7 @@ public class MonthlyAmazonBillingTest {
 		
 		//signing out
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[4]/div/div[1]/div[4]/a[2]/div[1]")).click();
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		WebElement signout = driver.findElement(By.cssSelector("#aws-console-logout"));
 		signout.click();
 		//System.out.println("Successfully Signed out");
